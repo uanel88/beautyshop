@@ -1,0 +1,93 @@
+a:link {text-decoration: none;}
+a:visited {color:white;text-decoration:none;}
+a:hover {text-decoration:none;
+border-bottom:2px solid white;}
+.navigation { background-color:black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  width:100%;
+  height: 30px;
+  border: 2px solid black;
+  outline-color:black;
+  outline-style: solid;
+  outline-width: 10px;
+  position: fixed;
+}
+.header {
+  min-height: 100vh;
+  width:100%;}
+ul li {  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;}
+  ul {list-style-type: none;
+    top: 120px;
+    width: 100%;}
+a {text-decoration: none;}
+    li {display: inline;
+    font-family: "Poppins", sans-serif;
+  text-transform: uppercase;}
+  .circletrend { border-radius: 100%;
+  background-color: #e7cba9;}
+  .circleplay { border-radius: 100%;
+  background-color: #aad9cd;}
+  .circlehand { border-radius: 100%;
+  background-color: #e8d595;}
+  a.one:link {text-decoration: none;}
+  a.one:visited {color:black;text-decoration:none;}
+  a.one:hover {text-decoration:none;
+  border-bottom:3px solid #e7cba9;}
+  a.two:link {text-decoration: none;}
+  a.two:visited {color:black;text-decoration:none;}
+  a.two:hover {text-decoration:none;
+  border-bottom:3px solid #aad9cd;}
+  a.three:link {text-decoration:none;}
+  a.three:visited {color:black; text-decoration:none;}
+  a.three:hover {text-decoration:none;
+  border-bottom:3px solid #e8d595;}
+  .section { position: fixed;
+    text-align:left;
+  font-size: 120%;
+  font-family:"Copperplate", fantasy;
+  background-color:white;
+  width: 100%;
+  height: 65px;
+  word-spacing: 10px;
+  margin-top:60px;
+  border: 10px solid #fba8ab;
+  outline-color:white;
+  outline-style: solid;
+  outline-width: 10px;}
+h2 {margin-top:150px;
+text-align: center;
+color:white;}
+h3 {text-align: center;}
+.TRENDS { display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px double white;
+border-radius: 10px;
+padding: 15px;}
+body {background-color: #fba8ab;}
+.footer { background-color:black;
+  margin-top: 150px;
+  margin-bottom: auto;
+  width:100%;
+  height: 250px;
+  border: 2px solid black;
+  outline-color:black;
+  outline-style: solid;
+  outline-width: 10px;
+}
+.icons {display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+h4 {color: white;
+text-align: center;
+font-family: "Poppins", sans-serif;}
+.feedback { display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-top: 80px;
+  background-color: #fba8ab;
+}
